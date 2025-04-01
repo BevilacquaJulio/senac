@@ -1,0 +1,58 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans';
+    margin: 0;
+    background: linear-gradient(137deg, rgba(0,0,0,1) 24%, rgba(255,132,0,1) 90%);
+    color: white;
+}
+
+.painel{
+    display: flex;
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.superior{
+    
+    font-size: 30px;
+}
+
+button {
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#sim {
+    position: absolute;
+    background: rgb(199, 4, 4);
+    color: white;
+    left: 60px;
+    bottom: 60px;
+}
+
+#sim:hover {
+    position: absolute;
+    background: transparent;
+    color: white;
+    border: 1px solid red;
+    left: 60px;
+    bottom: 60px;
+}
+  
+#nao {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+}
