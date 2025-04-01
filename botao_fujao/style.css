@@ -22,7 +22,7 @@ body{
 }
 
 .superior{
-    
+    text-align: center;
     font-size: 30px;
 }
 
@@ -40,6 +40,7 @@ button {
     color: white;
     left: 60px;
     bottom: 60px;
+    transition: background 0.3s ease, transform 0.4s ease;
 }
 
 #sim:hover {
@@ -49,6 +50,7 @@ button {
     border: 1px solid red;
     left: 60px;
     bottom: 60px;
+    transform: scale(1.1);
 }
   
 #nao {

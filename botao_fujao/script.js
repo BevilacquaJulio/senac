@@ -1,5 +1,5 @@
 function parabens() {
-  alert("Parabéns, você tem muito bom gosto!");
+  alert("Amém, que bom!");
 }
 
 var botaoNao = document.getElementById("nao");
