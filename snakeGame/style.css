@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Courier;
+  background: linear-gradient(111deg, rgba(0,255,192,1) 42%, rgba(0,198,255,1) 90%);
+  background-size: cover;
+}
+
+.game-area {
+  display: flex;
+  flex-direction: column;
+  background-color: grey ;
+  border-radius: 10px;
+  
+}
+
+.pontuacao {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: black;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+
+canvas {
+  border: 3px solid black;
+  border-radius: 10px 10px 0 0;
+}
